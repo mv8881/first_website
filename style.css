@@ -1,3 +1,8 @@
+@media screen and (max-width:600px) {
+    main{
+        width:100%;
+    }
+}
 body{
     margin: 0px;
 }
@@ -15,6 +20,9 @@ h1{
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .navbar a{
     color: white;
