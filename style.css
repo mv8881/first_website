@@ -7,7 +7,7 @@
         width: 100%;
     }
     .navbar{
-        zoom: 80%;
+        zoom: 80%;  
     }
 }
 body{
@@ -55,4 +55,28 @@ body h1,h2,h3,h4,h5{
 body p{
     margin-left: 30px;
     margin-right: 30px;
+}
+.btn {
+	box-shadow: 3px 4px 0px 0px #c4c4c4;
+	background:linear-gradient(to bottom, #c9c9c9 5%, #878787 100%);
+	background-color:#c9c9c9;
+	border-radius:15px;
+	border:1px solid #949494;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Georgia;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    scale:75%;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #878787 5%, #c9c9c9 100%);
+	background-color:#878787;
+}
+.btn:active {
+	position:relative;
+	top:1px;
 }
