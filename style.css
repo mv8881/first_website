@@ -1,9 +1,13 @@
+
 *{
     box-sizing: border-box;
 }
 @media screen and (max-width:600px) {
     .main {
         width: 100%;
+    }
+    .navbar{
+        zoom: 80%;
     }
 }
 body{
